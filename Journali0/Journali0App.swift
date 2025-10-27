@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Journali0App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
+        
+        
     }
 }
